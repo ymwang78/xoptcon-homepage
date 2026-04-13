@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="XOptCon — industrial data, control, and optimization: HISDB, PID, MPC, and RTO."
+    />
+    <title>XOptCon — Industrial Optimization &amp; Control</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="https://xoptcon.com/">XOptCon</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#solutions">Solutions</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="hero-eyebrow">Industrial software &amp; analytics</p>
+        <h1 class="hero-title">
+          From <em>data</em> to <em>decisions</em>—on the plant floor.
+        </h1>
+        <p class="hero-lead">
+          XOptCon connects historian intelligence, classical control, predictive
+          models, and real-time optimization in one coherent stack for process
+          industries.
+        </p>
+        <a class="cta" href="#solutions">Explore the platform</a>
+      </section>
+
+      <section id="solutions" class="solutions" aria-labelledby="solutions-heading">
+        <div class="section-head">
+          <h2 id="solutions-heading">Four pillars</h2>
+          <p class="section-sub">
+            Modular capabilities you can adopt step by step—or deploy together for
+            closed-loop performance.
+          </p>
+        </div>
+
+        <ul class="pillar-grid">
+          <li class="pillar pillar--hisdb">
+            <span class="pillar-tag">Data layer</span>
+            <h3 class="pillar-name">HISDB</h3>
+            <p class="pillar-desc">
+              High-performance historian and structured plant data: capture,
+              contextualize, and serve time-series and events at scale for
+              analytics and control.
+            </p>
+          </li>
+          <li class="pillar pillar--pid">
+            <span class="pillar-tag">Foundation</span>
+            <h3 class="pillar-name">PID</h3>
+            <p class="pillar-desc">
+              Robust regulatory control—tuning, anti-windup, and constraint-aware
+              loops that keep assets stable before advanced layers take the wheel.
+            </p>
+          </li>
+          <li class="pillar pillar--mpc">
+            <span class="pillar-tag">Advanced control</span>
+            <h3 class="pillar-name">MPC</h3>
+            <p class="pillar-desc">
+              Model predictive control that coordinates multivariable dynamics,
+              respects limits, and anticipates disturbances across the prediction
+              horizon.
+            </p>
+          </li>
+          <li class="pillar pillar--rto">
+            <span class="pillar-tag">Economics</span>
+            <h3 class="pillar-name">RTO</h3>
+            <p class="pillar-desc">
+              Real-time optimization to align operating targets with margins,
+              energy, and product specs—while honoring safety and equipment
+              envelopes.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-heading">
+        <div class="contact-card">
+          <h2 id="contact-heading">Get in touch</h2>
+          <p>
+            For demos, partnerships, or technical questions, reach the team at
+            <a class="email" href="mailto:admin@xoptcon.com">admin@xoptcon.com</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> XOptCon</span>
+      <span class="footer-dot" aria-hidden="true">·</span>
+      <a href="https://xoptcon.com/">xoptcon.com</a>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
