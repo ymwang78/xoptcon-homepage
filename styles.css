@@ -288,6 +288,21 @@ main {
   color: #f2d27a;
 }
 
+.pillar-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #f2d27a;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(242, 210, 122, 0.35);
+  transition: border-color 0.2s ease;
+}
+
+.pillar-link:hover {
+  border-bottom-color: rgba(242, 210, 122, 0.8);
+}
+
 .products {
   margin-top: 4.5rem;
 }
