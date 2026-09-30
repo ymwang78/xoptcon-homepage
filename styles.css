@@ -99,6 +99,12 @@ main,
   gap: 1.75rem;
 }
 
+@media (max-width: 480px) {
+  .nav {
+    gap: 1rem;
+  }
+}
+
 .nav a {
   color: var(--text-muted);
   text-decoration: none;
@@ -272,6 +278,18 @@ main {
 
 .pillar--rto .pillar-name {
   color: #c79cff;
+}
+
+.pillar--xoptcon .pillar-name {
+  color: var(--accent);
+}
+
+.pillar--guard .pillar-name {
+  color: #f2d27a;
+}
+
+.products {
+  margin-top: 4.5rem;
 }
 
 .contact {
